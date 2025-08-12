@@ -222,8 +222,8 @@ keyboard = InlineKeyboardMarkup(
     
 # Image URLs for the random image feature
 image_urls = [
-    "https://images.unsplash.com/photo-1581090700227-f8afcdc77e86",  # Hacker style female
-        ]
+    "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=800"
+]
 random_image_url = random.choice(image_urls) 
 
 # Caption for the image
