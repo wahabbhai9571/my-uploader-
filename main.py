@@ -211,22 +211,19 @@ async def sudo_command(bot: Client, message: Message):
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳", url=f"https://t.me/ytbr_67") ],
+                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳", url=f"https://t.me/riya40x") ],
                     [
-                    InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔", url="https://t.me/ytbr_67") ],
+                    InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔", url="https://t.me/riya40x") ],
                     [
-                    InlineKeyboardButton("🦋ғᴏʟʟᴏᴡ ᴜs🦋", url="https://t.me/ytbr_67")                              
+                    InlineKeyboardButton("🦋ғᴏʟʟᴏᴡ ᴜs🦋", url="https://t.me/riya40x")                              
                 ],           
             ]
       )
     
 # Image URLs for the random image feature
 image_urls = [
-    "https://graph.org/file/996d4fc24564509244988-a7d93d020c96973ba8.jpg",
-    "https://graph.org/file/96d25730136a3ea7e48de-b0a87a529feb485c8f.jpg",
-    "https://graph.org/file/6593f76ddd8c735ae3ce2-ede9fa2df40079b8a0.jpg",
-    # Add more image URLs as needed
-]
+    "https://images.unsplash.com/photo-1581090700227-f8afcdc77e86",  # Hacker style female
+        ]
 random_image_url = random.choice(image_urls) 
 
 # Caption for the image
